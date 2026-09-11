@@ -1,6 +1,6 @@
 # FindHosts
 
-VB6 working copy of `FindHosts` from Dave Robinson's OneDrive Historical Dev `VB/Old` folder. Project title: FindHosts. Output: `FindHosts.exe`.
+VB6 host monitor (`FindHosts.exe`) that reads hostnames from an Access/ADO store, pings each via DSPing (`dsping.dll`), and updates Up/Down state plus last-seen datetime in `tblHosts`. Ships with sample `MOJ_MASTER.mdb` / Hyena CSV notes. UI caption "Find Hosts".
 
 **Source last updated:** 2026-08-27 · **Language:** VB6 · **Target:** VB6 Win32 · **Output:** WinForms exe
 
